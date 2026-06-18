@@ -6,8 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://jaewon-choi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-jaewon--choi.vercel.app-0A84FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://jaewon-choi.vercel.app"><img src="https://img.shields.io/badge/Say_hi-%E2%86%92-30D158?style=for-the-badge" alt="Contact"/></a>
+  <a href="https://t.me/cobling"><img src="https://img.shields.io/badge/Say_hi-%E2%86%92-30D158?style=for-the-badge" alt="Contact"/></a>
   <a href="https://t.me/cobling"><img src="https://img.shields.io/badge/Telegram-%40cobling-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 </p>
 
@@ -57,6 +56,5 @@ A market-signal → short-form-content pipeline: script generation, capital-mark
 ---
 
 <p align="center">
-  No streak counters or commit graphs here — the live products above are the metric.<br/>
-  <a href="https://jaewon-choi.vercel.app"><b>jaewon-choi.vercel.app ↗</b></a>
+  No streak counters or commit graphs here — the live products above are the metric.
 </p>
