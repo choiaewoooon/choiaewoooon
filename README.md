@@ -32,11 +32,11 @@
 
 ### 👋 In short
 
-Five years in Web3 as a BD / PM. I led global go-to-market end to end, then stopped writing specs and started building the products my team actually runs on — AI agents, data dashboards, content pipelines. I'm not an engineer; I build to validate product decisions, and the build is the proof.
+Five years in Web3 as a BD / PM. I led global go-to-market end to end, then moved beyond specs and started building the products my team actually runs on — AI agents, data dashboards, content pipelines. I'm not an engineer; I build to validate product decisions, and the build is the proof.
 
 ### 🚀 What I ship — public & live
 
-Most builder profiles point at private repos. Mine don't. Click any link — the product runs.
+Everything below is public — and most of it is running live right now.
 
 **🟢 [canton-hub](https://github.com/choiaewoooon/canton-hub)** &nbsp;·&nbsp; [live ↗](https://canton-hub.vercel.app)
 Real-time dashboard for Canton Network. Collects scattered external sources on a schedule, serves them to the frontend over REST + SSE. &nbsp;`FastAPI` `Next.js`
@@ -45,11 +45,20 @@ Real-time dashboard for Canton Network. Collects scattered external sources on a
 Polymarket prediction-market data, visualized as a calendar and timeline. &nbsp;`React` `TypeScript`
 
 **[signal-to-story](https://github.com/choiaewoooon/signal-to-story)**
-A market-signal → short-form-content pipeline: script generation, capital-markets compliance review, and a human approval gate, wired into one flow. &nbsp;`Python` `Claude`
+A market-signal → short-form-content pipeline: script generation, capital-markets compliance review, and a human approval gate, wired into one flow. Runs keyless via the local Claude CLI. &nbsp;`Python` `Claude`
+
+**[claude-code-harness](https://github.com/choiaewoooon/claude-code-harness)**
+A non-engineer's Claude Code harness, public edition — the docs → plugin → automation onboarding framework, a 3-model judge-panel scorer, and ops notes from running daily LLM bots. &nbsp;`Claude Code` `Python`
+
+**[canton-telegram-bot](https://github.com/choiaewoooon/canton-telegram-bot)** &nbsp;·&nbsp; **[kospi-morning-bot](https://github.com/choiaewoooon/kospi-morning-bot)**
+Daily report bots running unattended on launchd. The KOSPI bot grades its own morning predictions against actual closing prices, every trading day. &nbsp;`Python` `LLM ops`
+
+**[krx-ai-bot](https://github.com/choiaewoooon/krx-ai-bot)**
+Event-driven autonomous trading daemon for KRX. Claude reads the market regime; rule-based risk limits do the gatekeeping. Paper-trading by default. &nbsp;`Python` `asyncio`
 
 ### 🧰 How I work
 
-- Moved repetitive team work into **18 in-house AI agents & skills**, then onboarded the team so it stuck as shared infrastructure.
+- Moved repetitive team work into **18 in-house AI agents & skills**, then onboarded the team so it stuck as shared infrastructure. The public half lives in [claude-code-harness](https://github.com/choiaewoooon/claude-code-harness).
 - Turn scattered data into **live dashboards**, not slide decks.
 - Ship LLM / agentic workflows myself with **Claude Code** — tools, not demos.
 
