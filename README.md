@@ -71,9 +71,6 @@ A pixel-art rhythm action game where you play guitar to cut down autotuned zombi
 **[live-korean-subtitles](https://github.com/choiaewoooon/live-korean-subtitles)**
 Chrome extension that turns English audio in any tab into live Korean subtitles: transcribe, translate, summarize, save as Markdown. Bring your own Gemini key. &nbsp;`JavaScript` `Gemini`
 
-**[pasta-timer](https://github.com/choiaewoooon/pasta-timer)**
-A pasta timer that shows you the sauce recipe while you wait. Ten noodle types, al dente presets, alerts at T-1 minute and at zero. I scoped it, designed it, and built it over a couple of weekends. &nbsp;`TypeScript` `PWA`
-
 ---
 
 ### 🤖 Agents & harness
