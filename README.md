@@ -2,11 +2,12 @@
 
 <p align="center">
   <b>AI Native Product Manager</b><br/>
-  I move the work people do by hand into AI agents — and prove it with products that ship.
+  I move the work people do by hand (marketing, GTM, reporting) into AI agents<br/>
+  and prove it with products that ship.
 </p>
 
 <p align="center">
-  <a href="https://t.me/cobling"><img src="https://img.shields.io/badge/Say_hi-%E2%86%92-30D158?style=for-the-badge" alt="Contact"/></a>
+  <a href="https://jaewon-choi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-%E2%86%92-0A0A0B?style=for-the-badge" alt="Portfolio"/></a>
   <a href="https://t.me/cobling"><img src="https://img.shields.io/badge/Telegram-%40cobling-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 </p>
 
@@ -32,11 +33,29 @@
 
 ### 👋 In short
 
-Five years in Web3 as a BD / PM. I led global go-to-market end to end, then moved beyond specs and started building the products my team actually runs on — AI agents, data dashboards, content pipelines. I'm not an engineer; I build to validate product decisions, and the build is the proof.
+Five years in Web3 as a BD / PM. I led global go-to-market end to end, then stopped stopping at the spec. I'm not an engineer, but I build the things my team runs on: marketing measurement, AI agents, dashboards, content pipelines. Building is how I check a product or marketing decision before anyone spends a quarter on it.
 
-### 🚀 What I ship — public & live
+Two tracks below, **marketing & GTM** and **product**. Same method either way: ship it, then measure it.
 
-Everything below is public — and most of it is running live right now.
+---
+
+### 📈 Marketing & GTM — measured, not asserted
+
+**🟢 [geo-probe](https://github.com/choiaewoooon/geo-probe)** &nbsp;·&nbsp; [live dashboard ↗](https://ai-visibility-monitor-psi.vercel.app)
+Measures how discoverable a brand is *inside AI answers*, the GEO problem. Asks the category question your customer would ask, **never naming the brand**, repeats it n≥5 across ChatGPT · Gemini · Claude, then reports a mention rate and median rank instead of one lucky screenshot. Zero dependencies. &nbsp;`Node` `GEO` `measurement`
+
+**[signal-to-story](https://github.com/choiaewoooon/signal-to-story)**
+Market signal → short-form content pipeline. Script generation, capital-markets compliance review, and a human approval gate wired into one flow. Runs keyless through the local Claude CLI. &nbsp;`Python` `Claude` `HITL`
+
+**[canton-telegram-bot](https://github.com/choiaewoooon/canton-telegram-bot)** &nbsp;·&nbsp; **[kospi-morning-bot](https://github.com/choiaewoooon/kospi-morning-bot)**
+Daily community/report bots running unattended on launchd. The KOSPI bot grades its own morning calls against actual closing prices, every trading day, so the content carries a scoreboard and not just a voice. &nbsp;`Python` `LLM ops`
+
+---
+
+### 🛠 Products — public & live
+
+**🟢 MarketMarket** &nbsp;·&nbsp; [live in production ↗](https://marketmarket.io/prediction/surebet)
+A prediction-market arbitrage view. I wrote the feature spec and built the data tab on my own; the engineering team integrated it into the production service, where it runs today. &nbsp;`spec` `data` `0→1`
 
 **🟢 [canton-hub](https://github.com/choiaewoooon/canton-hub)** &nbsp;·&nbsp; [live ↗](https://canton-hub.vercel.app)
 Real-time dashboard for Canton Network. Collects scattered external sources on a schedule, serves them to the frontend over REST + SSE. &nbsp;`FastAPI` `Next.js`
@@ -44,23 +63,33 @@ Real-time dashboard for Canton Network. Collects scattered external sources on a
 **🟢 [polymarket-community-calendar](https://github.com/choiaewoooon/polymarket-community-calendar)** &nbsp;·&nbsp; [live ↗](https://polymarket-calender.vercel.app)
 Polymarket prediction-market data, visualized as a calendar and timeline. &nbsp;`React` `TypeScript`
 
-**[signal-to-story](https://github.com/choiaewoooon/signal-to-story)**
-A market-signal → short-form-content pipeline: script generation, capital-markets compliance review, and a human approval gate, wired into one flow. Runs keyless via the local Claude CLI. &nbsp;`Python` `Claude`
+**🟢 Rock'n'Dead** &nbsp;·&nbsp; [play it ↗](https://rock-and-dead.vercel.app)
+A pixel-art rhythm action game where you play guitar to cut down autotuned zombies. Three chapters, 23 charted songs, six bosses, every track original. I scoped it, designed the systems, directed the art, wrote the charts, and rebuilt them against friends' playtest notes. &nbsp;`TypeScript` `Canvas 2D` `Web Audio`
+
+**[live-korean-subtitles](https://github.com/choiaewoooon/live-korean-subtitles)**
+Chrome extension that turns English audio in any tab into live Korean subtitles: transcribe, translate, summarize, save as Markdown. Bring your own Gemini key. &nbsp;`JavaScript` `Gemini`
+
+**[pasta-timer](https://github.com/choiaewoooon/pasta-timer)**
+A pasta timer that shows you the sauce recipe while you wait. Ten noodle types, al dente presets, alerts at T-1 minute and at zero. Scoped, designed, and built end to end by me, the small version of the same loop. &nbsp;`TypeScript` `PWA`
+
+---
+
+### 🤖 Agents & harness
 
 **[claude-code-harness](https://github.com/choiaewoooon/claude-code-harness)**
-A non-engineer's Claude Code harness, public edition — the docs → plugin → automation onboarding framework, a 3-model judge-panel scorer, and ops notes from running daily LLM bots. &nbsp;`Claude Code` `Python`
-
-**[canton-telegram-bot](https://github.com/choiaewoooon/canton-telegram-bot)** &nbsp;·&nbsp; **[kospi-morning-bot](https://github.com/choiaewoooon/kospi-morning-bot)**
-Daily report bots running unattended on launchd. The KOSPI bot grades its own morning predictions against actual closing prices, every trading day. &nbsp;`Python` `LLM ops`
+A non-engineer's Claude Code harness, public edition: the docs → plugin → automation onboarding framework, a 3-model judge-panel scorer, and ops notes from running daily LLM bots. &nbsp;`Claude Code` `Python`
 
 **[krx-ai-bot](https://github.com/choiaewoooon/krx-ai-bot)**
 Event-driven autonomous trading daemon for KRX. Claude reads the market regime; rule-based risk limits do the gatekeeping. Paper-trading by default. &nbsp;`Python` `asyncio`
 
+---
+
 ### 🧰 How I work
 
-- Moved repetitive team work into **18 in-house AI agents & skills**, then onboarded the team so it stuck as shared infrastructure. The public half lives in [claude-code-harness](https://github.com/choiaewoooon/claude-code-harness).
+- Built **13 MarketMarket automation plugins on my own**, plus **19 skills and 11 agents**, inside my team's shared Claude Code harness. I ran the onboarding for it too. The public half lives in [claude-code-harness](https://github.com/choiaewoooon/claude-code-harness).
 - Turn scattered data into **live dashboards**, not slide decks.
-- Ship LLM / agentic workflows myself with **Claude Code** — tools, not demos.
+- Treat marketing claims as **measurement problems**: repeated runs, stated method, honest zeros.
+- Ship LLM / agentic workflows myself with **Claude Code**. Tools, not demos.
 
 ---
 
